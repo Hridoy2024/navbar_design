@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Bricolage+Grotesque:opsz@10..48&family=Open+Sans:wght@300&family=Qwitcher+Grypen:wght@700&family=Sedgwick+Ave+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: aquamarine;
+    display: flex;
+    /* font-family: 'Bricolage Grotesque', sans-serif;  */
+}
+
+nav .Logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+nav .Logo img{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+nav .Logo h1{
+    font-size: 50px;
+    color: brown;
+}
+
+nav .Menu{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+} 
+
+nav .Menu ul{
+
+    display: flex;
+    list-style: none;
+}
+
+nav .Menu ul li{
+
+    margin: 0 20px;
+    position: relative;
+}
+
+nav .Menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(32, 114, 191, 0.836);
+    font-weight: bold;
+    justify-content: center;
+}
+
+nav .Menu ul li ul{
+    position: absolute;
+    top: 50px;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+nav .Menu ul li ul li{
+    margin:20px auto ;
+}
+
+nav .Menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+.xy{
+    background-color: rgb(145, 232, 16);
+}
+
+.ab{
+    background-color: antiquewhite;
+}
+
+.cd{
+    background-color: rgb(9, 186, 240);
+}
+
+.ft{
+    background-color: rgb(244, 161, 37);
+}
+
+
+
+
+
+
+
